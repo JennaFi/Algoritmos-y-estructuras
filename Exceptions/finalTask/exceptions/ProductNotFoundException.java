@@ -1,0 +1,8 @@
+package Exceptions.finalTask.exceptions;
+
+public class ProductNotFoundException extends Exception {
+
+    public ProductNotFoundException(String message) {
+        super(message);
+    }
+}
